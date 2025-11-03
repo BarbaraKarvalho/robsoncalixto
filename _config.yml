@@ -1,0 +1,77 @@
+# Site
+name: "Robson Calixto"
+title: "Robson Calixto - Engineering Blog"
+description: "Um blog minimalista sobre desenvolvimento e tecnologia. A minha expansão será focado em tutoriais diretos, reflexões sobre boas práticas de código, reviews de ferramentas e insights sobre o mundo da tecnologia."
+baseurl: ""
+include: ["_pages"]
+permalink: /:title/
+
+url: "https://calixtotechworld.dev"
+
+# Configurações do Jekyll
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+        line_numbers: true
+        
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-gist
+  - jekyll-embed-urls
+  - jekyll-linkpreview
+  - jekyll-mermaid
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-gist
+  - jekyll-embed-urls
+  - jekyll-linkpreview
+
+# Paginação
+paginate: 10
+paginate_path: "/page:num/"
+
+# Informações do autor
+author:
+  robson:
+    name: "Robson Calixto"
+    display_name: "Robson Calixto"
+    email: "robsoncaliixto@gmail.com"
+    web: https://robsoncalixto.github.io/
+
+# Configurações personalizadas
+cover_image_default: "/assets/images/default-cover.jpg"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, docker-compose.yml]
+
+embed:
+# Extra elements to remove
+  scrub:
+  - form
+  - input
+  - textarea
+  - button
+  - fieldset
+  - select
+  - option
+  - optgroup
+  - canvas
+  - area
+  - map
