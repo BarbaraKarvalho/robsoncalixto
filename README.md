@@ -1,11 +1,10 @@
-[Robson Calixto](#Título-e-Imagem-de-capa)
+# Hi, I`m Robson Calixto,
+## Welcome to my personal blog!!!
 
-![Robons Calixto](https://github.com/user-attachments/assets/73823e8f-f222-4dda-8696-27a7049ebaf5)
+##### A personal blog built with Jekyll and hosted on GitHub Pages
+![Robons Calixto](https://github.com/user-attachments/assets/85d03c45-5bd7-48ac-b644-f93fada5ac45)
 
-[A personal blog built with Jekyll and hosted on GitHub Pages.](#descrição-do-projeto)
 
-[Blog under Construction](#status-do-Projeto)
 <h4 align="center"> 
-  :construction:Blog under Construction:construction:
+  :construction: Blog under Construction :construction:
 </h4>
-![Robons Calixto](https://github.com/user-attachments/assets/d8cb5a58-7f32-480b-a7bb-ec4c0df7f21b)
